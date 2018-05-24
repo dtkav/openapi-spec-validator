@@ -41,7 +41,7 @@ class JSONSpecValidatorFactory:
 
     def __init__(self, schema, schema_url='', resolver_handlers=None):
         self.schema = schema
-        self.schema_url = schema_url
+        self.schema_url = schema.get('id', schema_url)
         self.resolver_handlers = resolver_handlers or ()
 
         self.schema_validator_class.check_schema(self.schema)
