@@ -1,11 +1,11 @@
 # OpenAPI Spec validator
 
-[![Package Version](https://img.shields.io/pypi/v/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
-[![Build Status](https://travis-ci.org/dtkav/openapi-spec-validator.svg?branch=master)](https://travis-ci.org/dtkav/openapi-spec-validator)
+[![Package Version](https://img.shields.io/pypi/v/dtkav-oas-validator.svg)](https://pypi.python.org/pypi/dtkav-oas-validator)
+[![Build Status](https://travis-ci.org/dtkav/dtkav-oas-validator.svg?branch=master)](https://travis-ci.org/dtkav/openapi-spec-validator)
 [![Code Coverage](https://img.shields.io/codecov/c/github/dtkav/openapi-spec-validator/master.svg?style=flat)](https://codecov.io/github/dtkav/openapi-spec-validator?branch=master)
-[![PyPI Version](https://img.shields.io/pypi/pyversions/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
-[![PyPI Format](https://img.shields.io/pypi/format/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
-[![PyPI Status](https://img.shields.io/pypi/status/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
+[![PyPI Version](https://img.shields.io/pypi/pyversions/dtkav-oas-validator.svg)](https://pypi.python.org/pypi/dtkav-oas-validator)
+[![PyPI Format](https://img.shields.io/pypi/format/dtkav-oas-validator.svg)](https://pypi.python.org/pypi/dtkav-oas-validator)
+[![PyPI Status](https://img.shields.io/pypi/status/dtkav-oas-validator.svg)](https://pypi.python.org/pypi/dtkav-oas-validator)
 
 
 ## Fork Notes
@@ -18,6 +18,8 @@ It has a few minor changes:
 
 I'm working on getting all of these changes upstreamed.
 
+I've temporarily repackaged the project as dtkav-oas-validator.
+For any inquiries about the openapi-spec-validator package, please contact Artur Maciag (maciag.artur@gmail.com)
 
 ## About
 
@@ -25,7 +27,7 @@ OpenAPI Spec Validator is a Python library that validates OpenAPI Specs against 
 
 ## Installation
 
-    $ pip install openapi-spec-validator
+    $ pip install dtkav-oas-validator
 
 ## Usage
 
