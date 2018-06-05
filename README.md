@@ -1,11 +1,23 @@
 # OpenAPI Spec validator
 
 [![Package Version](https://img.shields.io/pypi/v/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
-[![Build Status](https://travis-ci.org/p1c2u/openapi-spec-validator.svg?branch=master)](https://travis-ci.org/p1c2u/openapi-spec-validator)
-[![Code Coverage](https://img.shields.io/codecov/c/github/p1c2u/openapi-spec-validator/master.svg?style=flat)](https://codecov.io/github/p1c2u/openapi-spec-validator?branch=master)
+[![Build Status](https://travis-ci.org/dtkav/openapi-spec-validator.svg?branch=master)](https://travis-ci.org/dtkav/openapi-spec-validator)
+[![Code Coverage](https://img.shields.io/codecov/c/github/dtkav/openapi-spec-validator/master.svg?style=flat)](https://codecov.io/github/dtkav/openapi-spec-validator?branch=master)
 [![PyPI Version](https://img.shields.io/pypi/pyversions/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
 [![PyPI Format](https://img.shields.io/pypi/format/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
 [![PyPI Status](https://img.shields.io/pypi/status/openapi-spec-validator.svg)](https://pypi.python.org/pypi/openapi-spec-validator)
+
+
+## Fork Notes
+
+This repo was forked from https://github.com/p1c2u/openapi-spec-validator
+It has a few minor changes:
+1. adds support for python2.7
+2. drops support for python3.3 (it has been end-of-life'd)
+3. removes extraneous network call when validating swagger2 specs
+
+I'm working on getting all of these changes upstreamed.
+
 
 ## About
 
